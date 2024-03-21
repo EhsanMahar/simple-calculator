@@ -2,8 +2,8 @@
 import inquier from "inquirer";
 
 const answer=await inquier.prompt([
-{message:"enter your firstnumber",type:"number",name:"firstnumber"},
-{message:"enter your secondnumber",type:"number",name:"secondnumber"},
+{message:"enter the your firstnumber",type:"number",name:"firstnumber"},
+{message:"enter the your secondnumber",type:"number",name:"secondnumber"},
 {message:"select an operator to perform an action",type:"list",name:"operator",choices:["addition","subtraction","multiplication","division"]},
 
 ]);
@@ -27,3 +27,4 @@ else{
 console.log("select a correct operator");
 
 };
+console.log("The End");
